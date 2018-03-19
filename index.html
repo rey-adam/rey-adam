@@ -229,45 +229,25 @@
            <!-- Start Row -->        
            <div class="row">
                 <!-- Form For You-->  
-                <form method="post" id="ajax-contact" class="col-md-6 wow fadeIn" data-wow-delay=".6s">
-                    
-					<!-- NAME -->
-					<div class="form-group col-md-12">
-						<input type="text" class="form-control" name="name" 
-                               placeholder="Your name" data-error="Please, enter your name" required>
-					</div>
-					<!-- EMAIL -->
-					<div class="form-group col-md-12">
-						<input type="text" class="form-control" name="email" placeholder="Your e-mail"  
-                               data-required-error="Please, enter your email" 
-                         data-error="Please, enter your email as 'mail@mail.com'" required>
-					</div>
-					<!-- MESSAGE -->
-					<div class="form-group col-md-12">
-                     <textarea id="message" name="message" class="form-control" cols="40" rows="6" placeholder="Your Messages"></textarea>
-					</div>
-				    <div class="form-group col-md-12">
-                       <!-- Buttom Submit --> 
-                       <input type="submit" id='submit' class="btn btn-pr" value="Send">
-                    </div>
+
                 </form>
                 <!-- Append Message when Success -->
                <!-- <div id="form-messages" class="alert alert-success form-success col-md-6"></div> -->
                <!-- End Form --> 
-                <div class="col-md-6 wow fadeIn" data-wow-delay=".6s">
+                <div class="col-md-12 wow fadeIn" data-wow-delay=".6s">
                     <div class="row form-text">
-                        <div class="col-md-6  data-contact">
+                        <div class="col-md-12  data-contact">
                            <div class="text-center ">
-                               <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
+                               <i class="fa fa-mobile fa-2x" aria-hidden="true" data-toggle="tooltip" title="Phone Number"></i>
                            </div>
                            <div class="data-contact-text text-center">
                               <!-- Phone Number -->
                               <p class="number">(562) 314 - 7078 </p>
                            </div>
                         </div>
-                        <div class="col-md-6  data-contact">
+                        <div class="col-md-12  data-contact">
                            <div class="text-center ">
-                               <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+                               <i class="fa fa-map-marker fa-2x" aria-hidden="true" data-toggle="tooltip" title="Location"></i>
                            </div>
                            <div class="data-contact-text text-center">
                               <!-- Address  -->   
@@ -276,16 +256,19 @@
                                </p>
                            </div>
                         </div>
-                        <div class="col-md-6  data-contact">
+                        <div class="col-md-12  data-contact">
                            <div class="text-center ">
-                               <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
+                                <a href="mailto:reyadam.cruz@gmail.com">
+                               <i class="fa fa-envelope-o fa-2x" aria-hidden="true" data-toggle="tooltip" title="Email"></i>
+                               </a>
                            </div>
                            <div class="data-contact-text text-center">
-                              <!-- Email Address -->   
+                              <!-- Email Address -->
+        
                               <p>{ reyadam.cruz@gmail.com }</p>
                            </div>
                         </div>
-                        <div class="col-md-6  data-contact">
+                        <div class="col-md-12  data-contact">
                            <div class="text-center ">
                                <i class="fa fa-clock-o fa-2x" aria-hidden="true"></i>
                            </div>
@@ -311,8 +294,8 @@
             <div class="row">
                 <div class=" text-center wow fadeInUp"  data-wow-delay=".3s">
                     <p>Copyright &copy; 2018. Rey Adam Cruz</p>
-                    <a class="mediaIcon" href="https://www.linkedin.com/in/reyadamcruz/" target="_blank" data-toggle="tooltip" title="Linkedin"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-                    <a class="mediaIcon" href="https://github.com/rey-adam" target="_blank" data-toggle="tooltip" title="Github"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
+                    <a class="mediaIcon" href="https://www.linkedin.com/in/reyadamcruz/" target="_blank" data-toggle="tooltip" title="Linkedin"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+                    <a class="mediaIcon" href="https://github.com/rey-adam" target="_blank" data-toggle="tooltip" title="Github"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
                 </div>
             </div>
             <!-- End Row -->
